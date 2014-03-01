@@ -20,11 +20,7 @@ public class NewMain {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-      /*   Person me = new Person();
-        Player good = new Player();
-
-      System.out.println(good instanceof Person);
-      */
+     
     }
     
 }
