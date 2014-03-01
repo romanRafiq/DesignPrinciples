@@ -6,6 +6,8 @@
 
 package com.Config;
 
+import com.MyInterface.DIP.Correction.ErrorMessageInterface;
+import com.MyInterface.DIP.Correction.IntValidation;
 import com.MyInterface.Encapsulation.Person;
 import com.MyInterface.Inheritance.Player;
 
@@ -19,5 +21,15 @@ public class AppConfig {
     public Person getFirstClass()
     {
         return new Player();
+    }
+    @Bean(name = "DIPclases")
+    public ErrorMessageInterface getDIPClass()
+    {
+        return new IntValidation();
+    }
+      @Bean(name = "ISPrinciple")
+    public CoachList getISPClass()
+    {
+        return new ImplTeam();
     }
 }
