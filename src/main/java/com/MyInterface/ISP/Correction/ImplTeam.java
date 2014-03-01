@@ -57,7 +57,7 @@ public class ImplTeam implements ListOfPlayersInDivision,CoachList{
         {          
             coach = (Coach)coachList.get(i);
             
-            if(coach.getplayForTheClub() == false )
+            if(coach.getplayForTheClub() == true )
             {
                 newCoachList.add(coach);
             }           
